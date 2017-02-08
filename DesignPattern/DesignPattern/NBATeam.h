@@ -9,5 +9,6 @@
 #import "BasePrototypeModel.h"
 
 @interface NBATeam : BasePrototypeModel
-
+@property (nonatomic, strong) NSArray *teamPlayers;
+@property (nonatomic, strong) NSString *name;
 @end

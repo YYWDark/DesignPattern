@@ -9,5 +9,7 @@
 #import "BasePrototypeModel.h"
 
 @interface NBAPlayer : BasePrototypeModel
-
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign) NSInteger age;
+@property (nonatomic, assign) float height;
 @end

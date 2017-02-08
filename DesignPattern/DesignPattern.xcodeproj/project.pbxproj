@@ -19,6 +19,7 @@
 		750F6E4C1E49D6ED004DE4DA /* NBATeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F6E4B1E49D6ED004DE4DA /* NBATeam.m */; };
 		750F6E4F1E49D6F9004DE4DA /* NBAPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F6E4E1E49D6F9004DE4DA /* NBAPlayer.m */; };
 		750F6E511E49D739004DE4DA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 750F6E501E49D739004DE4DA /* data.plist */; };
+		75F4857B1E4AABE700EBF936 /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F4857A1E4AABE700EBF936 /* PrototypeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		750F6E4D1E49D6F9004DE4DA /* NBAPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAPlayer.h; sourceTree = "<group>"; };
 		750F6E4E1E49D6F9004DE4DA /* NBAPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAPlayer.m; sourceTree = "<group>"; };
 		750F6E501E49D739004DE4DA /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		75F485791E4AABE700EBF936 /* PrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeViewController.h; sourceTree = "<group>"; };
+		75F4857A1E4AABE700EBF936 /* PrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 				750F6E4B1E49D6ED004DE4DA /* NBATeam.m */,
 				750F6E4D1E49D6F9004DE4DA /* NBAPlayer.h */,
 				750F6E4E1E49D6F9004DE4DA /* NBAPlayer.m */,
+				75F485791E4AABE700EBF936 /* PrototypeViewController.h */,
+				75F4857A1E4AABE700EBF936 /* PrototypeViewController.m */,
 			);
 			name = Prototype;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				750F6E1B1E49D681004DE4DA /* ViewController.m in Sources */,
 				750F6E491E49D6DC004DE4DA /* BasePrototypeModel.m in Sources */,
 				750F6E181E49D681004DE4DA /* AppDelegate.m in Sources */,
+				75F4857B1E4AABE700EBF936 /* PrototypeViewController.m in Sources */,
 				750F6E151E49D681004DE4DA /* main.m in Sources */,
 				750F6E4F1E49D6F9004DE4DA /* NBAPlayer.m in Sources */,
 				750F6E4C1E49D6ED004DE4DA /* NBATeam.m in Sources */,
@@ -546,6 +552,7 @@
 				750F6E3F1E49D681004DE4DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		750F6E401E49D681004DE4DA /* Build configuration list for PBXNativeTarget "DesignPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +561,7 @@
 				750F6E421E49D681004DE4DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		750F6E431E49D681004DE4DA /* Build configuration list for PBXNativeTarget "DesignPatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +570,7 @@
 				750F6E451E49D681004DE4DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

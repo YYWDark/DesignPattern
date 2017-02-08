@@ -9,5 +9,14 @@
 #import "NBAPlayer.h"
 
 @implementation NBAPlayer
+- (void)copyMethodImplementedWithBasePrototypeModel:(BasePrototypeModel *)model {
+    NBAPlayer *player = (NBAPlayer *)model;
+    player.name = self.name;
+    player.age  = self.age;
+    player.height = self.height;
+}
 
+- (NSString *)description {
+  return [NSString stringWithFormat:@"name = %@, age = %ld, height = %f",_name,_age,_height];
+}
 @end
