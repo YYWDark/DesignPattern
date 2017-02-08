@@ -20,6 +20,14 @@
 		750F6E4F1E49D6F9004DE4DA /* NBAPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F6E4E1E49D6F9004DE4DA /* NBAPlayer.m */; };
 		750F6E511E49D739004DE4DA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 750F6E501E49D739004DE4DA /* data.plist */; };
 		75F4857B1E4AABE700EBF936 /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F4857A1E4AABE700EBF936 /* PrototypeViewController.m */; };
+		75F4857F1E4ABBDE00EBF936 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F4857E1E4ABBDE00EBF936 /* CommandViewController.m */; };
+		75F485821E4ABC1E00EBF936 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485811E4ABC1E00EBF936 /* Invoker.m */; };
+		75F485861E4AC21E00EBF936 /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485851E4AC21E00EBF936 /* Receiver.m */; };
+		75F4858A1E4AC3B600EBF936 /* AddCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485891E4AC3B600EBF936 /* AddCommand.m */; };
+		75F4858D1E4AC3CC00EBF936 /* DeleteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F4858C1E4AC3CC00EBF936 /* DeleteCommand.m */; };
+		75F485901E4AC3ED00EBF936 /* RandomCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F4858F1E4AC3ED00EBF936 /* RandomCommand.m */; };
+		75F485931E4AC40C00EBF936 /* RollbackCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485921E4AC40C00EBF936 /* RollbackCommand.m */; };
+		75F485961E4AC84600EBF936 /* UpdateNumberCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485951E4AC84600EBF936 /* UpdateNumberCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +73,24 @@
 		750F6E501E49D739004DE4DA /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		75F485791E4AABE700EBF936 /* PrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeViewController.h; sourceTree = "<group>"; };
 		75F4857A1E4AABE700EBF936 /* PrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewController.m; sourceTree = "<group>"; };
+		75F4857D1E4ABBDE00EBF936 /* CommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
+		75F4857E1E4ABBDE00EBF936 /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
+		75F485801E4ABC1E00EBF936 /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		75F485811E4ABC1E00EBF936 /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		75F485831E4ABE9800EBF936 /* DegisnPatternHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DegisnPatternHeader.h; sourceTree = "<group>"; };
+		75F485841E4AC21E00EBF936 /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		75F485851E4AC21E00EBF936 /* Receiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		75F485871E4AC2C200EBF936 /* CommandProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		75F485881E4AC3B600EBF936 /* AddCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCommand.h; sourceTree = "<group>"; };
+		75F485891E4AC3B600EBF936 /* AddCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCommand.m; sourceTree = "<group>"; };
+		75F4858B1E4AC3CC00EBF936 /* DeleteCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteCommand.h; sourceTree = "<group>"; };
+		75F4858C1E4AC3CC00EBF936 /* DeleteCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteCommand.m; sourceTree = "<group>"; };
+		75F4858E1E4AC3ED00EBF936 /* RandomCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomCommand.h; sourceTree = "<group>"; };
+		75F4858F1E4AC3ED00EBF936 /* RandomCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomCommand.m; sourceTree = "<group>"; };
+		75F485911E4AC40C00EBF936 /* RollbackCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollbackCommand.h; sourceTree = "<group>"; };
+		75F485921E4AC40C00EBF936 /* RollbackCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollbackCommand.m; sourceTree = "<group>"; };
+		75F485941E4AC84600EBF936 /* UpdateNumberCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateNumberCommand.h; sourceTree = "<group>"; };
+		75F485951E4AC84600EBF936 /* UpdateNumberCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateNumberCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +141,7 @@
 		750F6E121E49D681004DE4DA /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				75F4857C1E4ABBC400EBF936 /* Command */,
 				750F6E461E49D69B004DE4DA /* Prototype */,
 				750F6E161E49D681004DE4DA /* AppDelegate.h */,
 				750F6E171E49D681004DE4DA /* AppDelegate.m */,
@@ -159,6 +186,7 @@
 		750F6E461E49D69B004DE4DA /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				75F485831E4ABE9800EBF936 /* DegisnPatternHeader.h */,
 				750F6E471E49D6DC004DE4DA /* BasePrototypeModel.h */,
 				750F6E481E49D6DC004DE4DA /* BasePrototypeModel.m */,
 				750F6E4A1E49D6ED004DE4DA /* NBATeam.h */,
@@ -169,6 +197,30 @@
 				75F4857A1E4AABE700EBF936 /* PrototypeViewController.m */,
 			);
 			name = Prototype;
+			sourceTree = "<group>";
+		};
+		75F4857C1E4ABBC400EBF936 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				75F4857D1E4ABBDE00EBF936 /* CommandViewController.h */,
+				75F4857E1E4ABBDE00EBF936 /* CommandViewController.m */,
+				75F485801E4ABC1E00EBF936 /* Invoker.h */,
+				75F485811E4ABC1E00EBF936 /* Invoker.m */,
+				75F485841E4AC21E00EBF936 /* Receiver.h */,
+				75F485851E4AC21E00EBF936 /* Receiver.m */,
+				75F485871E4AC2C200EBF936 /* CommandProtocol.h */,
+				75F485881E4AC3B600EBF936 /* AddCommand.h */,
+				75F485891E4AC3B600EBF936 /* AddCommand.m */,
+				75F4858B1E4AC3CC00EBF936 /* DeleteCommand.h */,
+				75F4858C1E4AC3CC00EBF936 /* DeleteCommand.m */,
+				75F4858E1E4AC3ED00EBF936 /* RandomCommand.h */,
+				75F4858F1E4AC3ED00EBF936 /* RandomCommand.m */,
+				75F485911E4AC40C00EBF936 /* RollbackCommand.h */,
+				75F485921E4AC40C00EBF936 /* RollbackCommand.m */,
+				75F485941E4AC84600EBF936 /* UpdateNumberCommand.h */,
+				75F485951E4AC84600EBF936 /* UpdateNumberCommand.m */,
+			);
+			name = Command;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,12 +360,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F4857F1E4ABBDE00EBF936 /* CommandViewController.m in Sources */,
+				75F485931E4AC40C00EBF936 /* RollbackCommand.m in Sources */,
 				750F6E1B1E49D681004DE4DA /* ViewController.m in Sources */,
+				75F4858A1E4AC3B600EBF936 /* AddCommand.m in Sources */,
 				750F6E491E49D6DC004DE4DA /* BasePrototypeModel.m in Sources */,
+				75F485961E4AC84600EBF936 /* UpdateNumberCommand.m in Sources */,
 				750F6E181E49D681004DE4DA /* AppDelegate.m in Sources */,
 				75F4857B1E4AABE700EBF936 /* PrototypeViewController.m in Sources */,
 				750F6E151E49D681004DE4DA /* main.m in Sources */,
+				75F485821E4ABC1E00EBF936 /* Invoker.m in Sources */,
+				75F4858D1E4AC3CC00EBF936 /* DeleteCommand.m in Sources */,
 				750F6E4F1E49D6F9004DE4DA /* NBAPlayer.m in Sources */,
+				75F485861E4AC21E00EBF936 /* Receiver.m in Sources */,
+				75F485901E4AC3ED00EBF936 /* RandomCommand.m in Sources */,
 				750F6E4C1E49D6ED004DE4DA /* NBATeam.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

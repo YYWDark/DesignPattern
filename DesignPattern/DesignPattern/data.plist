@@ -3,7 +3,7 @@
 <plist version="1.0">
 <array>
 	<string>PrototypeViewController</string>
-	<string>CAAnimationViewController</string>
+	<string>CommandViewController</string>
 	<string>LayerTreeViewController</string>
 	<string>CAPropertyAnimationViewController</string>
 	<string>CAKeyframeAnimationViewController</string>
