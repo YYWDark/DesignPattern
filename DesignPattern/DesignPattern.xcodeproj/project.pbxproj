@@ -28,6 +28,12 @@
 		75F485901E4AC3ED00EBF936 /* RandomCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F4858F1E4AC3ED00EBF936 /* RandomCommand.m */; };
 		75F485931E4AC40C00EBF936 /* RollbackCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485921E4AC40C00EBF936 /* RollbackCommand.m */; };
 		75F485961E4AC84600EBF936 /* UpdateNumberCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485951E4AC84600EBF936 /* UpdateNumberCommand.m */; };
+		75F485C61E4BFFB100EBF936 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485C51E4BFFB100EBF936 /* StrategyViewController.m */; };
+		75F485C91E4C00A900EBF936 /* MMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485C81E4C00A900EBF936 /* MMTextField.m */; };
+		75F485CC1E4C00EF00EBF936 /* BaseInputStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485CB1E4C00EF00EBF936 /* BaseInputStrategy.m */; };
+		75F485CF1E4C015900EBF936 /* EmailInputStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485CE1E4C015900EBF936 /* EmailInputStrategy.m */; };
+		75F485D21E4C017700EBF936 /* PhoneNumberInputStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485D11E4C017700EBF936 /* PhoneNumberInputStrategy.m */; };
+		75F485D51E4C025400EBF936 /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F485D41E4C025400EBF936 /* RegExCategories.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +97,18 @@
 		75F485921E4AC40C00EBF936 /* RollbackCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollbackCommand.m; sourceTree = "<group>"; };
 		75F485941E4AC84600EBF936 /* UpdateNumberCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateNumberCommand.h; sourceTree = "<group>"; };
 		75F485951E4AC84600EBF936 /* UpdateNumberCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateNumberCommand.m; sourceTree = "<group>"; };
+		75F485C41E4BFFB100EBF936 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
+		75F485C51E4BFFB100EBF936 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
+		75F485C71E4C00A900EBF936 /* MMTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTextField.h; sourceTree = "<group>"; };
+		75F485C81E4C00A900EBF936 /* MMTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTextField.m; sourceTree = "<group>"; };
+		75F485CA1E4C00EF00EBF936 /* BaseInputStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInputStrategy.h; sourceTree = "<group>"; };
+		75F485CB1E4C00EF00EBF936 /* BaseInputStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInputStrategy.m; sourceTree = "<group>"; };
+		75F485CD1E4C015900EBF936 /* EmailInputStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailInputStrategy.h; sourceTree = "<group>"; };
+		75F485CE1E4C015900EBF936 /* EmailInputStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailInputStrategy.m; sourceTree = "<group>"; };
+		75F485D01E4C017700EBF936 /* PhoneNumberInputStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberInputStrategy.h; sourceTree = "<group>"; };
+		75F485D11E4C017700EBF936 /* PhoneNumberInputStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberInputStrategy.m; sourceTree = "<group>"; };
+		75F485D31E4C025400EBF936 /* RegExCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegExCategories.h; sourceTree = "<group>"; };
+		75F485D41E4C025400EBF936 /* RegExCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExCategories.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +159,7 @@
 		750F6E121E49D681004DE4DA /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				75F485C31E4BFF8D00EBF936 /* Strategy */,
 				75F4857C1E4ABBC400EBF936 /* Command */,
 				750F6E461E49D69B004DE4DA /* Prototype */,
 				750F6E161E49D681004DE4DA /* AppDelegate.h */,
@@ -221,6 +240,25 @@
 				75F485951E4AC84600EBF936 /* UpdateNumberCommand.m */,
 			);
 			name = Command;
+			sourceTree = "<group>";
+		};
+		75F485C31E4BFF8D00EBF936 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				75F485D31E4C025400EBF936 /* RegExCategories.h */,
+				75F485D41E4C025400EBF936 /* RegExCategories.m */,
+				75F485C41E4BFFB100EBF936 /* StrategyViewController.h */,
+				75F485C51E4BFFB100EBF936 /* StrategyViewController.m */,
+				75F485C71E4C00A900EBF936 /* MMTextField.h */,
+				75F485C81E4C00A900EBF936 /* MMTextField.m */,
+				75F485CA1E4C00EF00EBF936 /* BaseInputStrategy.h */,
+				75F485CB1E4C00EF00EBF936 /* BaseInputStrategy.m */,
+				75F485CD1E4C015900EBF936 /* EmailInputStrategy.h */,
+				75F485CE1E4C015900EBF936 /* EmailInputStrategy.m */,
+				75F485D01E4C017700EBF936 /* PhoneNumberInputStrategy.h */,
+				75F485D11E4C017700EBF936 /* PhoneNumberInputStrategy.m */,
+			);
+			name = Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,16 +398,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F485C91E4C00A900EBF936 /* MMTextField.m in Sources */,
 				75F4857F1E4ABBDE00EBF936 /* CommandViewController.m in Sources */,
 				75F485931E4AC40C00EBF936 /* RollbackCommand.m in Sources */,
 				750F6E1B1E49D681004DE4DA /* ViewController.m in Sources */,
 				75F4858A1E4AC3B600EBF936 /* AddCommand.m in Sources */,
 				750F6E491E49D6DC004DE4DA /* BasePrototypeModel.m in Sources */,
+				75F485C61E4BFFB100EBF936 /* StrategyViewController.m in Sources */,
+				75F485D51E4C025400EBF936 /* RegExCategories.m in Sources */,
+				75F485D21E4C017700EBF936 /* PhoneNumberInputStrategy.m in Sources */,
+				75F485CF1E4C015900EBF936 /* EmailInputStrategy.m in Sources */,
 				75F485961E4AC84600EBF936 /* UpdateNumberCommand.m in Sources */,
 				750F6E181E49D681004DE4DA /* AppDelegate.m in Sources */,
 				75F4857B1E4AABE700EBF936 /* PrototypeViewController.m in Sources */,
 				750F6E151E49D681004DE4DA /* main.m in Sources */,
 				75F485821E4ABC1E00EBF936 /* Invoker.m in Sources */,
+				75F485CC1E4C00EF00EBF936 /* BaseInputStrategy.m in Sources */,
 				75F4858D1E4AC3CC00EBF936 /* DeleteCommand.m in Sources */,
 				750F6E4F1E49D6F9004DE4DA /* NBAPlayer.m in Sources */,
 				75F485861E4AC21E00EBF936 /* Receiver.m in Sources */,

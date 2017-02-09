@@ -37,22 +37,23 @@ static NSString *cellID = @"MMCell";
 }
 
 #pragma mark - UITableViewDataSource
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataArr.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
     cell.textLabel.text = self.dataArr[indexPath.row];
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     id vc = [[NSClassFromString(self.dataArr[indexPath.row]) alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
 #pragma mark - Getter
-- (UITableView *)tableView{
+- (UITableView *)tableView {
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, kNavigationHeight, self.view.frame.size.width, self.view.frame.size.height - kNavigationHeight ) style:UITableViewStylePlain];
         _tableView.dataSource = self;
@@ -66,7 +67,7 @@ static NSString *cellID = @"MMCell";
     return _tableView;
 }
 
-- (NSMutableArray *)dataArr{
+- (NSMutableArray *)dataArr {
     if (!_dataArr) {
         NSString *path = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"];
         _dataArr = [[NSMutableArray alloc] initWithContentsOfFile:path];

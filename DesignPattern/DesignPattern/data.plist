@@ -4,7 +4,7 @@
 <array>
 	<string>PrototypeViewController</string>
 	<string>CommandViewController</string>
-	<string>LayerTreeViewController</string>
+	<string>StrategyViewController</string>
 	<string>CAPropertyAnimationViewController</string>
 	<string>CAKeyframeAnimationViewController</string>
 </array>
