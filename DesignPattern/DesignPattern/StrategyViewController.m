@@ -44,7 +44,6 @@
     MMTextField *customField = (MMTextField *)textField;
     
     if ([customField validate] == NO) {
-        
         // 提示信息
         NSLog(@"errorMessage = %@",customField.inputValidator.errorMessage);
      

@@ -5,7 +5,7 @@
 	<string>PrototypeViewController</string>
 	<string>CommandViewController</string>
 	<string>StrategyViewController</string>
-	<string>CAPropertyAnimationViewController</string>
+	<string>MementoViewController</string>
 	<string>CAKeyframeAnimationViewController</string>
 </array>
 </plist>
